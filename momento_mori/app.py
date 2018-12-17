@@ -1,7 +1,10 @@
 import csv
+import os
 from datetime import date
 
-with open('data/life_expectancy.csv', mode='r') as life_expectancies:
+data_path = os.path.dirname(os.path.realpath(__file__)) + '/data/life_expectancy.csv'
+
+with open(path, mode='r') as life_expectancies:
     csv_reader = csv.DictReader(life_expectancies)
     line_count = 0
     data       = [row for row in csv_reader]
