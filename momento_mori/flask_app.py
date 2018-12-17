@@ -24,3 +24,6 @@ def get_expectancy():
     years = app.years(request.args['gender'], age)
 
     return render_template('result.html', years=years)
+
+if __name__ == '__main__':
+    app.run()

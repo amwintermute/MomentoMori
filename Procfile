@@ -1,0 +1,1 @@
+web: gunicorn momento_mori/flask_app:app --log-file=-
