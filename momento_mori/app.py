@@ -4,7 +4,7 @@ from datetime import date
 
 data_path = os.path.dirname(os.path.realpath(__file__)) + '/data/life_expectancy.csv'
 
-with open(path, mode='r') as life_expectancies:
+with open(data_path, mode='r') as life_expectancies:
     csv_reader = csv.DictReader(life_expectancies)
     line_count = 0
     data       = [row for row in csv_reader]
