@@ -10,7 +10,7 @@ def years(gender, age):
     if gender == 'male':
         expectancy = data[age]['male life expectancy']
     else:
-        expectancy = data[age]['male life expectancy']
+        expectancy = data[age]['female life expectancy']
 
     return float(expectancy)
 
