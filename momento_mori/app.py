@@ -7,7 +7,7 @@ with open('data/life_expectancy.csv', mode='r') as life_expectancies:
     data       = [row for row in csv_reader]
 
 def years(gender, age):
-    if gender=='male':
+    if gender == 'male':
         expectancy = data[age]['male life expectancy']
     else:
         expectancy = data[age]['male life expectancy']

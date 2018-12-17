@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    {% include 'head.html' %}
+    <body>
+        <header>
+            <h1><a href="{{ url_for('index')}}">Momento Mori</a></h1>
+        </header>
+
+        {% block body %}
+        <!-- Content gets served here -->
+        {% endblock %}
+
+        <footer class="credits">
+            <p>
+                Made by <a href="https://github.com/MenzerInternational">Andrew Menzer</a> &amp; <a href="http://mattmatters.io">Matt Lewis</a>
+            </p>
+            <div class="social">
+                <a href="https://github.com/MenzerInternation/MomentoMori"><i class="fa fa-github" aria-hidden="true" /></a>
+            </div>
+        </footer>
+    </body>
+</html>
