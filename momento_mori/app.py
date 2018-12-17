@@ -1,13 +1,18 @@
+import csv
 from datetime import date
 
-class timeLeft:
-    def days():
-        reaper  = date(year=2070, month=5, day=19)
-        today   = date.today()
-        return reaper - today
+with open('data/life_expectancy.csv', mode='r') as life_expectancies:
+    csv_reader = csv.DictReader(life_expectancies)
+    line_count = 0
+    data       = [row for row in csv_reader]
 
-    def years():
-        reaper    = date(year=2070, month=5, day=19)
-        today     = date.today()
-        this_year = today.year
-        return reaper.year - this_year
+def years(gender, age):
+    if gender=='male':
+        expectancy = data[age]['male life expectancy']
+    else:
+        expectancy = data[age]['male life expectancy']
+
+    return float(expectancy)
+
+def days(gender, age):
+    return int(years(gender, age) * 365)
