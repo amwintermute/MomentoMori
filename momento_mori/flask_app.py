@@ -26,4 +26,4 @@ def get_expectancy():
     return render_template('result.html', years=years)
 
 if __name__ == '__main__':
-    app.run()
+    flask_app.run()
