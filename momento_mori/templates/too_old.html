@@ -1,6 +1,12 @@
 {% extends "layout.html" %}
 {% block body %}
-<div>
-    You are already dead.
+<div class="container">
+    <div class="ambassadors-img">
+        <img src="{{ url_for('static', filename='the_ambassadors.jpg') }}">
+        <p style="margin-top: .05em">
+            <i>The Ambassadors by Hans Holbein the Younger</i>
+        </p>
+    </div>
+    <p>You are already dead.</p>
 </div>
 {% endblock %}

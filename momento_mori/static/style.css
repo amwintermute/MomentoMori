@@ -81,3 +81,19 @@ body {
     color: #383B53;
     text-decoration: none;
 }
+
+.ambassadors-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.ambassadors-img img {
+    max-width: 20em;
+}
+
+.ambassadors-img p {
+    font-size: .8em;
+    margin-top: .05em;
+}
