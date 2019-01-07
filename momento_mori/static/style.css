@@ -14,9 +14,15 @@ html {
     background-color: #66717E;
 }
 
+header {
+    margin: 1em;
+    text-align: center;
+}
+
 h1, h2, h3 {
     color: #32213A;
     font-family: 'Cinzel Decorative', cursive;
+    margin: .3em;
 }
 
 h4, p, ul {
@@ -47,7 +53,22 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.social {
+    text-align: center;
+}
+
+.social a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.social a:hover {
+    color: #32213A;
 }
 
 .home-link {
