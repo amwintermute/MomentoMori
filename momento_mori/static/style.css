@@ -1,0 +1,51 @@
+/*
+    Color scheme
+    #32213A
+    #383B53
+    #66717E
+    #D4D6B9
+    #D1CAA1
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative|Roboto');
+
+/* Overwrite some defaults */
+html {
+    background-color: #66717E;
+}
+
+h1, h2, h3 {
+    color: #32213A;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+h4, p, ul {
+    color: #D1CAA1;
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    font-size: .8em;
+    padding: .2em;
+}
+
+.text-input {
+    background-color: #D4D6B9;
+    border-color: #383B53;
+    max-width: 8em;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+
+}
