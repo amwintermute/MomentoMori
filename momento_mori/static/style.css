@@ -11,7 +11,7 @@
 
 /* Overwrite some defaults */
 html {
-    background-color: #66717E;
+    background-color: #D4D6B9;
 }
 
 header {
@@ -20,13 +20,17 @@ header {
 }
 
 h1, h2, h3 {
-    color: #32213A;
+    color: #383B53;
     font-family: 'Cinzel Decorative', cursive;
     margin: .3em;
 }
 
+h3 {
+    color: #66717E;
+}
+
 h4, p, ul {
-    color: #D1CAA1;
+    color: #32213A;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -36,9 +40,11 @@ input {
 }
 
 .text-input {
-    background-color: #D4D6B9;
-    border-color: #383B53;
+    background-color: #FFFFFF;
+    border-color: #66717E;
+    border-style: solid;
     max-width: 8em;
+    border-radius: .1em;
 }
 
 body {
@@ -72,6 +78,6 @@ body {
 }
 
 .home-link {
-    color: #32213A;
+    color: #383B53;
     text-decoration: none;
 }
