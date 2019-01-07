@@ -2,7 +2,6 @@
 from flask import Flask, request, render_template
 from momento_mori import app
 
-# Use cdn if in production
 STATIC_URL_PATH = '/static'
 
 flask_app = Flask(__name__, static_url_path=STATIC_URL_PATH)
